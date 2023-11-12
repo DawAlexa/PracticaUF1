@@ -15,16 +15,19 @@ namespace ivaCalculadora
             Console.WriteLine ("Introduce número: ");
             precio = Convert.ToInt32( System.Console.ReadLine() );
             
-
-
-
-
-
-
-
-
-
-
+            if (precio<=10)
+            {
+                double resulta= precio * 0.06;
+                Console.WriteLine(resulta);
+            }
+            else if (precio>10)
+            {
+                double total= precio*0.21;
+                Console.WriteLine(total);
+            }
+            else{
+                Console.WriteLine("No introdujo el precio");
+            } 
 
 
         }
