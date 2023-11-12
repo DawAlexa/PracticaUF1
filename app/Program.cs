@@ -10,7 +10,10 @@ namespace ivaCalculadora
         {
             //Programa para calcular iva segun cantidad.
 
-            
+            double precio=0;
+
+            Console.WriteLine ("Introduce número: ");
+            precio = Convert.ToInt32( System.Console.ReadLine() );
             
 
 
